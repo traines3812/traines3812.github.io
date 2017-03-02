@@ -8,7 +8,8 @@ font-family: "Helvetica Neue";
 
 .masthead-heading,
 .masthead-intro,
-.content-footer {
+.content-footer,
+.pythonhead-intro {
 	text-align: center;
 }
 
@@ -16,7 +17,8 @@ font-family: "Helvetica Neue";
 	paddingL 6em 0;
 }
 
-.masthead-intro {
+.masthead-intro,
+.pythonhead-intro {
 	margin-bottom: 0.1em;
 	font-family: "Gentium Book Basic";
 	font-size: 2em;
@@ -33,7 +35,8 @@ font-family: "Helvetica Neue";
 	color:green;
 }
 
-.masthead {
+.masthead,
+.pythonhead {
 	padding:6em 0;
 	background-image: url('photo.jpg');
 	background-repeat: no-repeat;
