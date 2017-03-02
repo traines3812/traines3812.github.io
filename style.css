@@ -1,0 +1,88 @@
+body {
+background-color: white;
+/* Typography Declarations */
+color: #222222;
+font-size: 1em;
+font-family: "Helvetica Neue";	
+}
+
+.masthead-heading,
+.masthead-intro,
+.content-footer {
+	text-align: center;
+}
+
+.masthead {
+	paddingL 6em 0;
+}
+
+.masthead-intro {
+	margin-bottom: 0.1em;
+	font-family: "Gentium Book Basic";
+	font-size: 2em;
+	color: green;
+}
+
+.masthead-heading {
+	margin-top: -0.2em;
+	font-family: "Helvetica Neue";
+	font-weight: bold;
+	font-size: 6em;
+	letter-spacing: -0.02em;
+	text-transform: uppercase;
+	color:green;
+}
+
+.masthead {
+	padding:6em 0;
+	background-image: url('photo.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-top: solid 10px white;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+	max-width: 38em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+}
+
+.social > li {
+	display: inline-block;
+}
+
+.content-footer > p {
+	color: white;
+}
+
+.intoduction > p,
+.location > p,
+.content-footer > p {
+	/*Typography Declarations*/
+	font-weight: 300;
+	letter-spacing: 0,05em;
+}
+
+```css
+.questions-section > h2 {
+	/*Typography Declarations */
+	font-family: "Gentium Book Basic", Georgia, serif;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.content-footer {
+	/* Red, Green, Blue: #RRGGBB */;
+	background-color: #FF0000;
+}
+
+h1 {
+	color: #FF0000;
+}
+
+h2 {
+	color: #FF0000;
+}
